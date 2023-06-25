@@ -48,6 +48,11 @@ body{
     font-size: 1rem;
     border-radius: 5px;
 }
+.form i{
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+}
 .form a{
     width: 100%;
     background: #f6f6f9;
