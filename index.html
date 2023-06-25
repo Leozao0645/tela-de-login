@@ -14,15 +14,14 @@
             <label>Email</label>
             <input type="email" name="usuario" placeholder="Digite seu email">
             <label>Senha</label>
-            <div class="inputSenha">
-                <input type="password" name="senha" id="" placeholder="Digite sua senha">
-                <i class="bi bi-eye-fill"></i>
-            </div>
-            <a href="#">Entrar</a>
+            <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
+            <input type="password" id="senha" placeholder="Digite sua senha">
+            <button id="btn-login" onclick="login()">Entrar</button>
         </form>
         <div class="link">
-            Não tem cadastro? <a href="#">Cadastre-se</a>
+            Não tem cadastro? <a id="cadastrar" onclick="cadastrar()">Cadastre-se</a>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
