@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-login.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Login</title>
 </head>
@@ -11,17 +11,19 @@
     <div class="container">
         <h2>Bem Vindo(a)!</h2>
         <form class="form">
-            <label>Email</label>
+            <label>Email:</label>
             <input type="email" name="usuario" placeholder="Digite seu email">
-            <label>Senha</label>
+
+            <label>Senha:</label>
             <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
             <input type="password" id="senha" placeholder="Digite sua senha">
+            
             <button id="btn-login" onclick="login()">Entrar</button>
         </form>
         <div class="link">
-            Não tem cadastro? <a id="cadastrar" onclick="cadastrar()">Cadastre-se</a>
+            Não tem cadastro? <a href="cadastro.html">Cadastre-se</a>
         </div>
     </div>
-    <script src="main.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>
